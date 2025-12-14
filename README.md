@@ -67,7 +67,7 @@ All other segments remain in the same relative order. This observation allows th
 ## Complexity
 
 - **Time Complexity:** \(O((n + k)\log n)\), where \(k\) is the number of intersections.
-- **Space Complexity:** \(O(n + k)\), for storing events, active segments, and detected intersections.
+- **Space Complexity:** \(O(n + k)\), for storing events, active segments, and detected intersections. (Note this can be reduced to n if we only add intersection points of consecutative segments in the sweep status)
 
 ---
 
